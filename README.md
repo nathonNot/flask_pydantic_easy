@@ -1,0 +1,2 @@
+# flask_pydantic_demo
+借鉴flask_pydantic进行的小调整
