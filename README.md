@@ -3,9 +3,9 @@
 
 使用方法
 ```
-from flask_pydantic_easy.core import decorate
+from core import decorate
 
-@app.route('/ceshi/<string:abc>', methods=['GET'])
+@app.route('/user/<string:some_str>', methods=['GET'])
 @decorate
 def ceshi(query_model: QueryModel, abc):
     print(abc)
