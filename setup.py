@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="flask_pydantic_easy",
-    version="0.0.1",
+    version="0.0.2",
     description="快速，方便的flask路由参数校验器",
     license="MIT Licence",
 

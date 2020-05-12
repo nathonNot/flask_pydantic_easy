@@ -11,8 +11,10 @@ try:
 except ImportError:
     pass
 
+InputParams = TypeVar("InputParams")
 
-def decorate():
+
+def decorate(func: Callable[[InputParams], Any]) -> Callable[[InputParams], Any]:
     @wraps(func)
     def wrapper(*args, **kwargs):
         func_data = signature(func)
