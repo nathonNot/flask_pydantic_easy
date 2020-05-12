@@ -4,7 +4,7 @@ from flask import Flask, request, jsonify
 from flask_pydantic_demo import validate
 from pydantic import BaseModel
 
-from core import decorate
+from flask_pydantic_easy.core import decorate
 
 app = Flask("app")
 

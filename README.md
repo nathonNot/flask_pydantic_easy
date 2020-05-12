@@ -1,8 +1,15 @@
 # flask_pydantic_easy
 借鉴flask_pydantic，简化了一些参数的校验，但是对于一些仅需要对于入参校验的已经足够了。
 
+
+安装
+```
+pip install flask_pydantic_easy
+```
 使用方法
 ```
+
+
 from core import decorate
 
 @app.route('/user/<string:some_str>', methods=['GET'])
